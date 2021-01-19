@@ -83,6 +83,7 @@ else:
     import dj_database_url
     DATABASES['default'] = dj_database_url.config(default='postgres://\
 alumnodb:alumnodb@localhost:5432/test')
+STATIC_ROOT = os.path.join(BASE_DIR, ’staticHeroku’)
 
 
 # Password validation
