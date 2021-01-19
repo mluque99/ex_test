@@ -25,7 +25,8 @@ SECRET_KEY = '!j*stz-thj#@qr25vu**41-h782kuzp94h&d0@$7_r*(hi$mt!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [u'evening-sea-99252.herokuapp.com',
+                 u'localhost', u'127.0.0.1']
 
 
 # Application definition
